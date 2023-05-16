@@ -1,0 +1,174 @@
+.row{
+ 
+margin-right: 10%!important;
+margin-left: 10% !important;
+gap: 5%;
+margin-bottom: 3%;
+
+}
+
+
+.row h1{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.row .card-title1{
+  text-align: center;
+  font-weight: bold;
+}
+.row .card-text1{
+  text-align: center;
+}
+
+.row a{
+  text-align: center;
+}
+.row .card{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  border: 6px ridge;
+  border-radius: 15px;
+}
+
+.row .card .card-img-top{
+  margin-top: 20px;
+  width: 170px;
+  height: 150px;
+ 
+}
+.row h5{
+  font-weight: bold;
+}
+
+.cardBody{
+  background-color: white;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.cardBodyDark{
+  background-color: hsl(0,0%,33%);
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.itemDetail {
+    max-width: 740px ;
+    margin-top: 10px;
+    border: 5px solid black ;
+    
+}
+
+.divForm {
+    margin-top: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+}
+
+nav{
+  margin-bottom: 5%;
+}
+
+
+
+.container-fluid .container{
+  
+  display: flex;
+justify-content:center;
+align-items: center ;
+ 
+    
+}
+ .container-fluid .container .navbar-nav a{
+  color: white;
+  font-weight: bold;
+}
+
+ .container-fluid p{
+  color: white;
+  font-weight: bold;
+}
+
+.divForm{
+  margin-top: 20px;
+}
+.darkMode{
+  background-color: black;
+  color:burlywood;
+}
+
+.nav-link span{
+color: white;
+font-weight: bold;
+margin-right: 20px;
+}
+
+.cantCart{
+  position: relative;
+  left: 2%;
+}
+.cardCart {
+    max-width: 640px;
+}
+.cartContainer {
+    margin-top: 3%;   
+}
+
+.btn{
+  border: none;
+  border-radius: 20px;
+  
+}
+
+.cartButtons{
+  margin-bottom: 40px;
+}
+
+.nav-link{
+  margin-bottom: 40px;
+  
+}
+.cartWidget{
+  width: 113.182px;
+  height: 70px;
+  margin-right: 20px;
+  padding: 0%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cart-vacio{
+  margin-bottom: 5%;
+ align-content: center;
+ text-align: center;
+}
+.cart-vacio h1{
+  font-size: 50px;
+}
+.cart-vacio .btn{
+margin-top: 20px;
+border-radius: 20px;
+height: 50px;
+}
